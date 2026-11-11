@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Root launcher POM: lets you run Maven from the hack/ folder.
+  It only points at the backend module; all real build config lives in backend/pom.xml.
+  Usage (from hack/):  mvn spring-boot:run   |   mvn test
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.expplatform</groupId>
+    <artifactId>experiment-platform-root</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>experiment-platform-root</name>
+
+    <modules>
+        <module>backend</module>
+    </modules>
+
+    <build>
+        <plugins>
+            <!-- Declared here so the 'spring-boot' prefix resolves from hack/.
+                 Skipped for this aggregator; the backend module does the actual run. -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>3.3.5</version>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

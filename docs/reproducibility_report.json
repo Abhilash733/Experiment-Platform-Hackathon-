@@ -1,0 +1,108 @@
+{
+  "checked_at" : "2026-11-11T06:52:06.812167500Z",
+  "seed" : 20261022,
+  "users" : 50000,
+  "experiments" : 10,
+  "run1" : "GEN-2026-000003",
+  "run2" : "GEN-2026-000004",
+  "reproducible" : true,
+  "tables" : [ {
+    "table" : "metric_definition",
+    "rows_run1" : 7,
+    "rows_run2" : 7,
+    "sha256_run1" : "4171c6b0005cf9f429476826c75199f82b51d08c2e63e3d351d1fb645398a187",
+    "sha256_run2" : "4171c6b0005cf9f429476826c75199f82b51d08c2e63e3d351d1fb645398a187",
+    "identical" : true
+  }, {
+    "table" : "experiment",
+    "rows_run1" : 10,
+    "rows_run2" : 10,
+    "sha256_run1" : "a2ff0cb3211a374ae7dd55cf8d1b82438bd4076482db84eb3a595c92455bca72",
+    "sha256_run2" : "a2ff0cb3211a374ae7dd55cf8d1b82438bd4076482db84eb3a595c92455bca72",
+    "identical" : true
+  }, {
+    "table" : "variant",
+    "rows_run1" : 21,
+    "rows_run2" : 21,
+    "sha256_run1" : "d4270ab49eb55d264ddd3977e375b680655b3b1123f7593a9b835c964e6b7668",
+    "sha256_run2" : "d4270ab49eb55d264ddd3977e375b680655b3b1123f7593a9b835c964e6b7668",
+    "identical" : true
+  }, {
+    "table" : "guardrail_metric",
+    "rows_run1" : 30,
+    "rows_run2" : 30,
+    "sha256_run1" : "df815445bf90bc0b160117a7e9be5a7a8f0cd1c6fbea1b3c8ebd1a2288d0b1f6",
+    "sha256_run2" : "df815445bf90bc0b160117a7e9be5a7a8f0cd1c6fbea1b3c8ebd1a2288d0b1f6",
+    "identical" : true
+  }, {
+    "table" : "audience_member",
+    "rows_run1" : 50000,
+    "rows_run2" : 50000,
+    "sha256_run1" : "240c1f72bdc4ee52b30eef19dcd1d38a0b937f256e321a4ded2e5d29adae414c",
+    "sha256_run2" : "240c1f72bdc4ee52b30eef19dcd1d38a0b937f256e321a4ded2e5d29adae414c",
+    "identical" : true
+  }, {
+    "table" : "experiment_eligibility",
+    "rows_run1" : 50000,
+    "rows_run2" : 50000,
+    "sha256_run1" : "19914996ff88a9385a429f823316faacca99d857c59ee2bfabbd4fb166c96c04",
+    "sha256_run2" : "19914996ff88a9385a429f823316faacca99d857c59ee2bfabbd4fb166c96c04",
+    "identical" : true
+  }, {
+    "table" : "assignment",
+    "rows_run1" : 49703,
+    "rows_run2" : 49703,
+    "sha256_run1" : "982a38532532fd863223a1ccdb8d56b470c3602e1c34dc25bbf3a658db33fb3f",
+    "sha256_run2" : "982a38532532fd863223a1ccdb8d56b470c3602e1c34dc25bbf3a658db33fb3f",
+    "identical" : true
+  }, {
+    "table" : "exposure_event",
+    "rows_run1" : 71791,
+    "rows_run2" : 71791,
+    "sha256_run1" : "f3c2dcb0999e740839b25bcbccb1d1857202d4cd7cb8f50a55de7280b626a99c",
+    "sha256_run2" : "f3c2dcb0999e740839b25bcbccb1d1857202d4cd7cb8f50a55de7280b626a99c",
+    "identical" : true
+  }, {
+    "table" : "conversion_event",
+    "rows_run1" : 9504,
+    "rows_run2" : 9504,
+    "sha256_run1" : "11a7b852b7840e18fd7027aa7cfd4e036c924fff95c1d600339a37cfc4d215c6",
+    "sha256_run2" : "11a7b852b7840e18fd7027aa7cfd4e036c924fff95c1d600339a37cfc4d215c6",
+    "identical" : true
+  }, {
+    "table" : "experiment_status_event",
+    "rows_run1" : 60,
+    "rows_run2" : 60,
+    "sha256_run1" : "abdff24547ebd74d4ccb4807c6a0847662901c8bfd844da62c4588a65186caac",
+    "sha256_run2" : "abdff24547ebd74d4ccb4807c6a0847662901c8bfd844da62c4588a65186caac",
+    "identical" : true
+  }, {
+    "table" : "analysis_run",
+    "rows_run1" : 10,
+    "rows_run2" : 10,
+    "sha256_run1" : "e08b57bb0a0069b33bc2acb416cb848b0f568934d1bb0274b32e74aef53cc5ec",
+    "sha256_run2" : "e08b57bb0a0069b33bc2acb416cb848b0f568934d1bb0274b32e74aef53cc5ec",
+    "identical" : true
+  }, {
+    "table" : "experiment_result",
+    "rows_run1" : 84,
+    "rows_run2" : 84,
+    "sha256_run1" : "bfdc7f155caf2409366a1d5fbb4643e8a47ac8d1cc508b142db6ca8285d8fb57",
+    "sha256_run2" : "bfdc7f155caf2409366a1d5fbb4643e8a47ac8d1cc508b142db6ca8285d8fb57",
+    "identical" : true
+  }, {
+    "table" : "experiment_decision",
+    "rows_run1" : 10,
+    "rows_run2" : 10,
+    "sha256_run1" : "a9f6bc56f5ab33d0cce26b6f73aecc4c1f6559688bd5ab9b2bcc51ecfbbdbbb0",
+    "sha256_run2" : "a9f6bc56f5ab33d0cce26b6f73aecc4c1f6559688bd5ab9b2bcc51ecfbbdbbb0",
+    "identical" : true
+  }, {
+    "table" : "ground_truth",
+    "rows_run1" : 5623,
+    "rows_run2" : 5623,
+    "sha256_run1" : "689b575c3376ffab35d020c18930231d98da53800838e1a860e9ac43bbf73cc0",
+    "sha256_run2" : "689b575c3376ffab35d020c18930231d98da53800838e1a860e9ac43bbf73cc0",
+    "identical" : true
+  } ]
+}
